@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@mui/material": "^5.15.4",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.12",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "daisyui": "^4.6.0"
+  }
+}
