@@ -3,7 +3,10 @@ import HeroSection from "./component/HeroSection"
 import NavBar from "./component/Navbar"
 import AboutSection from "./component/AboutSection"
 import Footer from "./component/Footer"
+import ProjectSection from "./component/ProjectSection"
 import ParticleBackground from "./component/ParticleBackground"
+
+
 export default function Home(){
 
   return (
@@ -16,6 +19,7 @@ export default function Home(){
         <div className='container mt-24 mx-auto px-12 py-4'>
             <HeroSection />
             <AboutSection /> 
+            <ProjectSection/>
         </div>
         <Footer/>
       </main>
