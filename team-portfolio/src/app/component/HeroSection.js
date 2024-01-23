@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion, useAnimation } from 'framer-motion';
 import Link from 'next/link';
+import ButtonWrapper  from './SpotlightButton';
 import Image from 'next/image';
 
 const HeroSection = () => {
@@ -56,15 +57,8 @@ const HeroSection = () => {
             full-stack development, graphic design, and many more. Explore our website to
             know us more. Let's collaborate on our works!
           </p>
-
-          <div className="absolute">
-            <button
-              className="px-6 py-3 rounded-full mt-5 relative left-1/2 text-lg bg-blue-500 text-black hover:bg-blue-800"
-            >
-              <Link href={'#about'}>Get Started</Link>
-            </button>
-          </div>
           <div className="col-span-5"></div>
+          <ButtonWrapper/>
         </motion.div>
 
         <motion.div
