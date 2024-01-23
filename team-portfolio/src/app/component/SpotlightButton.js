@@ -42,7 +42,7 @@ const SpotlightButton = () => {
     <motion.button
       whileTap={{ scale: 0.985 }}
       ref={btnRef}
-      className="relative w-full max-w-xs overflow-hidden rounded-lg bg-slate-950 px-4 py-3 text-lg font-medium text-white"
+      className="relative w-full mt-5 max-w-xs overflow-hidden rounded-lg bg-slate-950 px-4 py-3 text-lg font-medium text-white"
     >
       <span className="pointer-events-none relative z-10 mix-blend-difference">
         <Link href={'#about'}>Get Started</Link> 
